@@ -1,0 +1,456 @@
+
+2013-12-06 01:24:52...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:25:05...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:25:31...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:25:42...Begin System Check Process *************
+2013-12-06 01:25:42...XML Parsing Support Found
+2013-12-06 01:25:42...MBString Support Found
+2013-12-06 01:25:42...ZIP Support Found
+2013-12-06 01:25:42.../custom directory and subdirectory check passed
+2013-12-06 01:25:42...cache directory and subdirectory check passed
+2013-12-06 01:25:42.../module  directory and subdirectory check passed
+2013-12-06 01:25:42.../upload directory check passed
+2013-12-06 01:25:42.../zip check passed
+2013-12-06 01:25:42...PCRE version check passed
+2013-12-06 01:25:42...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:25:42...php.ini location found. /usr/local/lib/php.ini
+2013-12-06 01:25:42...Outputting HTML for System check
+2013-12-06 01:25:42...No Errors were found *************
+2013-12-06 01:25:45...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:25:52...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:25:58...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:26:43...Begin DB Check Process *************
+2013-12-06 01:26:43...testing with mysql:mysqli
+2013-12-06 01:26:43...Basic form info is valid, continuing Process.
+2013-12-06 01:26:43...Testing user account...
+2013-12-06 01:26:43...Connection made using  host: localhost, usr: ecsiapps_ecsicrm
+2013-12-06 01:26:43...Testing priviliged account...
+2013-12-06 01:26:43...Connection made using  host: localhost, usr: ecsiapps_ecsicrm
+2013-12-06 01:26:43...ERROR:: The provided Database Name already exists.  You can<br>1.  hit the back button and choose a new database name <br>2.  click next and continue but all existing tables on this database will be dropped.  <strong>This means your tables and data will be blown away.</strong>
+2013-12-06 01:26:43...Passed DB install check
+2013-12-06 01:26:43...WARNING:: no errors detected, but DB tables will be dropped!, issuing warning to user
+2013-12-06 01:26:43...End DB Check Process *************
+2013-12-06 01:26:46...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:27:21...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:28:15...installerHook: Could not find custom/install/install_hooks.php
+2013-12-06 01:28:15...calling handleSugarConfig()
+2013-12-06 01:28:15...calling handleLog4Php()
+2013-12-06 01:28:15...calling handleHtaccess()
+2013-12-06 01:28:15...calling handleDbCharsetCollation()
+2013-12-06 01:28:15...looping through all the Beans and create their tables
+2013-12-06 01:28:15...processing table acl_actions
+2013-12-06 01:28:15...dropping table acl_actions
+2013-12-06 01:28:15...creating table acl_actions
+2013-12-06 01:28:15...creating Relationship Meta for ACLAction
+2013-12-06 01:28:15...processing table acl_roles
+2013-12-06 01:28:15...dropping table acl_roles
+2013-12-06 01:28:15...creating table acl_roles
+2013-12-06 01:28:15...creating Relationship Meta for ACLRole
+2013-12-06 01:28:15...processing table relationships
+2013-12-06 01:28:15...dropping table relationships
+2013-12-06 01:28:15...creating table relationships
+2013-12-06 01:28:15...creating Relationship Meta for Relationship
+2013-12-06 01:28:15...processing table leads
+2013-12-06 01:28:15...dropping table leads
+2013-12-06 01:28:15...creating table leads
+2013-12-06 01:28:15...creating Relationship Meta for Lead
+2013-12-06 01:28:15...processing table cases
+2013-12-06 01:28:15...dropping table cases
+2013-12-06 01:28:15...creating table cases
+2013-12-06 01:28:15...creating Relationship Meta for Case
+2013-12-06 01:28:15...processing table bugs
+2013-12-06 01:28:15...dropping table bugs
+2013-12-06 01:28:15...creating table bugs
+2013-12-06 01:28:15...creating Relationship Meta for Bug
+2013-12-06 01:28:15...processing table users
+2013-12-06 01:28:15...dropping table users
+2013-12-06 01:28:15...creating table users
+2013-12-06 01:28:15...creating Relationship Meta for User
+2013-12-06 01:28:15...processing table campaign_log
+2013-12-06 01:28:15...dropping table campaign_log
+2013-12-06 01:28:15...creating table campaign_log
+2013-12-06 01:28:15...creating Relationship Meta for CampaignLog
+2013-12-06 01:28:15...processing table project
+2013-12-06 01:28:15...dropping table project
+2013-12-06 01:28:15...creating table project
+2013-12-06 01:28:15...creating Relationship Meta for Project
+2013-12-06 01:28:15...processing table project_task
+2013-12-06 01:28:15...dropping table project_task
+2013-12-06 01:28:16...creating table project_task
+2013-12-06 01:28:16...creating Relationship Meta for ProjectTask
+2013-12-06 01:28:16...processing table campaigns
+2013-12-06 01:28:16...dropping table campaigns
+2013-12-06 01:28:16...creating table campaigns
+2013-12-06 01:28:16...creating Relationship Meta for Campaign
+2013-12-06 01:28:16...processing table prospect_lists
+2013-12-06 01:28:16...dropping table prospect_lists
+2013-12-06 01:28:16...creating table prospect_lists
+2013-12-06 01:28:16...creating Relationship Meta for ProspectList
+2013-12-06 01:28:16...processing table prospects
+2013-12-06 01:28:16...dropping table prospects
+2013-12-06 01:28:16...creating table prospects
+2013-12-06 01:28:16...creating Relationship Meta for Prospect
+2013-12-06 01:28:16...processing table email_marketing
+2013-12-06 01:28:16...dropping table email_marketing
+2013-12-06 01:28:16...creating table email_marketing
+2013-12-06 01:28:16...creating Relationship Meta for EmailMarketing
+2013-12-06 01:28:16...processing table campaign_trkrs
+2013-12-06 01:28:16...dropping table campaign_trkrs
+2013-12-06 01:28:16...creating table campaign_trkrs
+2013-12-06 01:28:16...creating Relationship Meta for CampaignTracker
+2013-12-06 01:28:16...processing table releases
+2013-12-06 01:28:16...dropping table releases
+2013-12-06 01:28:16...creating table releases
+2013-12-06 01:28:16...creating Relationship Meta for Release
+2013-12-06 01:28:16...processing table emailman
+2013-12-06 01:28:16...dropping table emailman
+2013-12-06 01:28:16...creating table emailman
+2013-12-06 01:28:16...creating Relationship Meta for EmailMan
+2013-12-06 01:28:16...processing table schedulers
+2013-12-06 01:28:16...dropping table schedulers
+2013-12-06 01:28:16...creating table schedulers
+2013-12-06 01:28:16...creating Relationship Meta for Scheduler
+2013-12-06 01:28:16...processing table job_queue
+2013-12-06 01:28:16...dropping table job_queue
+2013-12-06 01:28:16...creating table job_queue
+2013-12-06 01:28:16...creating Relationship Meta for SchedulersJob
+2013-12-06 01:28:16...processing table contacts
+2013-12-06 01:28:16...dropping table contacts
+2013-12-06 01:28:16...creating table contacts
+2013-12-06 01:28:16...creating Relationship Meta for Contact
+2013-12-06 01:28:16...processing table accounts
+2013-12-06 01:28:16...dropping table accounts
+2013-12-06 01:28:16...creating table accounts
+2013-12-06 01:28:16...creating Relationship Meta for Account
+2013-12-06 01:28:16...processing table opportunities
+2013-12-06 01:28:16...dropping table opportunities
+2013-12-06 01:28:16...creating table opportunities
+2013-12-06 01:28:16...creating Relationship Meta for Opportunity
+2013-12-06 01:28:16...processing table email_templates
+2013-12-06 01:28:16...dropping table email_templates
+2013-12-06 01:28:16...creating table email_templates
+2013-12-06 01:28:16...creating Relationship Meta for EmailTemplate
+2013-12-06 01:28:16...processing table notes
+2013-12-06 01:28:16...dropping table notes
+2013-12-06 01:28:16...creating table notes
+2013-12-06 01:28:16...creating Relationship Meta for Note
+2013-12-06 01:28:16...processing table calls
+2013-12-06 01:28:16...dropping table calls
+2013-12-06 01:28:16...creating table calls
+2013-12-06 01:28:16...creating Relationship Meta for Call
+2013-12-06 01:28:16...processing table emails
+2013-12-06 01:28:16...dropping table emails
+2013-12-06 01:28:17...creating table emails
+2013-12-06 01:28:17...creating Relationship Meta for Email
+2013-12-06 01:28:17...processing table meetings
+2013-12-06 01:28:17...dropping table meetings
+2013-12-06 01:28:17...creating table meetings
+2013-12-06 01:28:17...creating Relationship Meta for Meeting
+2013-12-06 01:28:17...processing table tasks
+2013-12-06 01:28:17...dropping table tasks
+2013-12-06 01:28:17...creating table tasks
+2013-12-06 01:28:17...creating Relationship Meta for Task
+2013-12-06 01:28:17...processing table users
+2013-12-06 01:28:17...processing table users
+2013-12-06 01:28:17...processing table currencies
+2013-12-06 01:28:17...dropping table currencies
+2013-12-06 01:28:17...creating table currencies
+2013-12-06 01:28:17...creating Relationship Meta for Currency
+2013-12-06 01:28:17...processing table tracker
+2013-12-06 01:28:17...dropping table tracker
+2013-12-06 01:28:17...creating table tracker
+2013-12-06 01:28:17...creating Relationship Meta for Tracker
+2013-12-06 01:28:17...processing table import_maps
+2013-12-06 01:28:17...dropping table import_maps
+2013-12-06 01:28:17...creating table import_maps
+2013-12-06 01:28:17...creating Relationship Meta for ImportMap
+2013-12-06 01:28:17...processing table users_last_import
+2013-12-06 01:28:17...dropping table users_last_import
+2013-12-06 01:28:17...creating table users_last_import
+2013-12-06 01:28:17...creating Relationship Meta for UsersLastImport
+2013-12-06 01:28:17...processing table config
+2013-12-06 01:28:17...dropping table config
+2013-12-06 01:28:17...creating table config
+2013-12-06 01:28:17...creating Relationship Meta for Administration
+2013-12-06 01:28:17...processing table upgrade_history
+2013-12-06 01:28:17...dropping table upgrade_history
+2013-12-06 01:28:17...creating table upgrade_history
+2013-12-06 01:28:17...creating Relationship Meta for UpgradeHistory
+2013-12-06 01:28:17...processing table vcals
+2013-12-06 01:28:17...dropping table vcals
+2013-12-06 01:28:17...creating table vcals
+2013-12-06 01:28:17...creating Relationship Meta for vCal
+2013-12-06 01:28:17...processing table versions
+2013-12-06 01:28:17...dropping table versions
+2013-12-06 01:28:17...creating table versions
+2013-12-06 01:28:17...creating Relationship Meta for Version
+2013-12-06 01:28:17...processing table roles
+2013-12-06 01:28:17...dropping table roles
+2013-12-06 01:28:17...creating table roles
+2013-12-06 01:28:17...creating Relationship Meta for Role
+2013-12-06 01:28:17...processing table documents
+2013-12-06 01:28:17...dropping table documents
+2013-12-06 01:28:17...creating table documents
+2013-12-06 01:28:17...creating Relationship Meta for Document
+2013-12-06 01:28:17...processing table document_revisions
+2013-12-06 01:28:17...dropping table document_revisions
+2013-12-06 01:28:17...creating table document_revisions
+2013-12-06 01:28:17...creating Relationship Meta for DocumentRevision
+2013-12-06 01:28:17...processing table fields_meta_data
+2013-12-06 01:28:17...dropping table fields_meta_data
+2013-12-06 01:28:17...creating table fields_meta_data
+2013-12-06 01:28:17...creating Relationship Meta for FieldsMetaData
+2013-12-06 01:28:17...processing table inbound_email
+2013-12-06 01:28:17...dropping table inbound_email
+2013-12-06 01:28:17...creating table inbound_email
+2013-12-06 01:28:17...creating Relationship Meta for InboundEmail
+2013-12-06 01:28:17...processing table saved_search
+2013-12-06 01:28:17...dropping table saved_search
+2013-12-06 01:28:17...creating table saved_search
+2013-12-06 01:28:17...creating Relationship Meta for SavedSearch
+2013-12-06 01:28:17...processing table user_preferences
+2013-12-06 01:28:17...dropping table user_preferences
+2013-12-06 01:28:17...creating table user_preferences
+2013-12-06 01:28:17...creating Relationship Meta for UserPreference
+2013-12-06 01:28:17...processing table 
+2013-12-06 01:28:17...processing table email_addresses
+2013-12-06 01:28:17...dropping table email_addresses
+2013-12-06 01:28:17...creating table email_addresses
+2013-12-06 01:28:17...creating Relationship Meta for EmailAddress
+2013-12-06 01:28:17...processing table emails_text
+2013-12-06 01:28:17...dropping table emails_text
+2013-12-06 01:28:17...creating table emails_text
+2013-12-06 01:28:17...creating Relationship Meta for EmailText
+2013-12-06 01:28:17...processing table sugarfeed
+2013-12-06 01:28:17...dropping table sugarfeed
+2013-12-06 01:28:17...creating table sugarfeed
+2013-12-06 01:28:17...creating Relationship Meta for SugarFeed
+2013-12-06 01:28:17...processing table eapm
+2013-12-06 01:28:17...dropping table eapm
+2013-12-06 01:28:17...creating table eapm
+2013-12-06 01:28:17...creating Relationship Meta for EAPM
+2013-12-06 01:28:17...processing table oauth_consumer
+2013-12-06 01:28:17...dropping table oauth_consumer
+2013-12-06 01:28:17...creating table oauth_consumer
+2013-12-06 01:28:17...creating Relationship Meta for OAuthKey
+2013-12-06 01:28:17...processing table oauth_tokens
+2013-12-06 01:28:17...dropping table oauth_tokens
+2013-12-06 01:28:17...creating table oauth_tokens
+2013-12-06 01:28:17...creating Relationship Meta for OAuthToken
+2013-12-06 01:28:20...Begin creating Defaults
+2013-12-06 01:28:20...insert defaults into config table
+2013-12-06 01:28:20...Creating default users
+2013-12-06 01:28:20...Creating default scheduler jobs
+2013-12-06 01:28:20...Enable SugarFeeds
+2013-12-06 01:28:20...Enable InsideView Connector
+2013-12-06 01:28:20...Creating FTS logic hook
+2013-12-06 01:28:20...populating the db with seed data
+2013-12-06 01:28:29...Installation has completed *********
+2013-12-06 01:28:42...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:23:15...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:23:49...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:23:59...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:24:17...Begin System Check Process *************
+2014-02-04 09:24:17...XML Parsing Support Found
+2014-02-04 09:24:17...MBString Support Found
+2014-02-04 09:24:17...ZIP Support Found
+2014-02-04 09:24:17.../custom directory and subdirectory check passed
+2014-02-04 09:24:17...cache directory and subdirectory check passed
+2014-02-04 09:24:19.../module  directory and subdirectory check passed
+2014-02-04 09:24:19.../upload directory check passed
+2014-02-04 09:24:19.../zip check passed
+2014-02-04 09:24:19...PCRE version check passed
+2014-02-04 09:24:19...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:24:19...php.ini location found. C:\wamp\bin\apache\apache2.4.4\bin\php.ini
+2014-02-04 09:24:19...Outputting HTML for System check
+2014-02-04 09:24:19...No Errors were found *************
+2014-02-04 09:24:22...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:24:32...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:24:40...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:25:26...Begin DB Check Process *************
+2014-02-04 09:25:26...testing with mysql:mysqli
+2014-02-04 09:25:26...Basic form info is valid, continuing Process.
+2014-02-04 09:25:26...Testing user account...
+2014-02-04 09:25:26...Connection made using  host: localhost, usr: root
+2014-02-04 09:25:26...Testing priviliged account...
+2014-02-04 09:25:26...Connection made using  host: localhost, usr: root
+2014-02-04 09:25:26...ERROR:: The provided Database Name already exists.  You can<br>1.  hit the back button and choose a new database name <br>2.  click next and continue but all existing tables on this database will be dropped.  <strong>This means your tables and data will be blown away.</strong>
+2014-02-04 09:25:26...Passed DB install check
+2014-02-04 09:25:26...WARNING:: no errors detected, but DB tables will be dropped!, issuing warning to user
+2014-02-04 09:25:26...End DB Check Process *************
+2014-02-04 09:25:28...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:25:45...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:25:51...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:25:51...calling handleSugarConfig()
+2014-02-04 09:25:51...calling handleLog4Php()
+2014-02-04 09:25:51...calling handleHtaccess()
+2014-02-04 09:25:51...calling handleDbCharsetCollation()
+2014-02-04 09:25:52...looping through all the Beans and create their tables
+2014-02-04 09:25:52...processing table acl_actions
+2014-02-04 09:25:53...dropping table acl_actions
+2014-02-04 09:25:53...creating table acl_actions
+2014-02-04 09:25:53...creating Relationship Meta for ACLAction
+2014-02-04 09:25:53...processing table acl_roles
+2014-02-04 09:25:53...dropping table acl_roles
+2014-02-04 09:25:53...creating table acl_roles
+2014-02-04 09:25:53...creating Relationship Meta for ACLRole
+2014-02-04 09:25:53...processing table relationships
+2014-02-04 09:25:54...dropping table relationships
+2014-02-04 09:25:54...creating table relationships
+2014-02-04 09:25:54...creating Relationship Meta for Relationship
+2014-02-04 09:25:54...processing table leads
+2014-02-04 09:25:54...dropping table leads
+2014-02-04 09:25:54...creating table leads
+2014-02-04 09:25:54...creating Relationship Meta for Lead
+2014-02-04 09:25:54...processing table cases
+2014-02-04 09:25:54...dropping table cases
+2014-02-04 09:49:59...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:50:47...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:50:53...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:51:00...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:51:02...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:51:07...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:51:12...Begin System Check Process *************
+2014-02-04 09:51:12...XML Parsing Support Found
+2014-02-04 09:51:12...MBString Support Found
+2014-02-04 09:51:12...ZIP Support Found
+2014-02-04 09:51:12.../custom directory and subdirectory check passed
+2014-02-04 09:51:12...cache directory and subdirectory check passed
+2014-02-04 09:51:13.../module  directory and subdirectory check passed
+2014-02-04 09:51:13.../upload directory check passed
+2014-02-04 09:51:13.../zip check passed
+2014-02-04 09:51:13...PCRE version check passed
+2014-02-04 09:51:13...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:51:13...php.ini location found. C:\wamp\bin\apache\apache2.4.4\bin\php.ini
+2014-02-04 09:51:13...Outputting HTML for System check
+2014-02-04 09:51:13...No Errors were found *************
+2014-02-04 09:51:16...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:20...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:22...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:30...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:38...Begin System Check Process *************
+2014-02-04 09:53:38...XML Parsing Support Found
+2014-02-04 09:53:38...MBString Support Found
+2014-02-04 09:53:38...ZIP Support Found
+2014-02-04 09:53:38.../custom directory and subdirectory check passed
+2014-02-04 09:53:38...cache directory and subdirectory check passed
+2014-02-04 09:53:40.../module  directory and subdirectory check passed
+2014-02-04 09:53:40.../upload directory check passed
+2014-02-04 09:53:40.../zip check passed
+2014-02-04 09:53:40...PCRE version check passed
+2014-02-04 09:53:40...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:40...php.ini location found. C:\wamp\bin\apache\apache2.4.4\bin\php.ini
+2014-02-04 09:53:40...Outputting HTML for System check
+2014-02-04 09:53:40...No Errors were found *************
+2014-02-04 09:53:42...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:47...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:53:53...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:54:15...Begin DB Check Process *************
+2014-02-04 09:54:15...testing with mysql:mysqli
+2014-02-04 09:54:15...Basic form info is valid, continuing Process.
+2014-02-04 09:54:15...Testing user account...
+2014-02-04 09:54:15...Connection made using  host: localhost, usr: root
+2014-02-04 09:54:15...Testing priviliged account...
+2014-02-04 09:54:15...Connection made using  host: localhost, usr: root
+2014-02-04 09:54:15...DB not selected, will create empower
+2014-02-04 09:54:15...Passed DB install check
+2014-02-04 09:54:15...SUCCESS:: no errors detected!
+2014-02-04 09:54:15...End DB Check Process *************
+2014-02-04 09:54:15...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:54:22...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:54:27...installerHook: Could not find custom/install/install_hooks.php
+2014-02-04 09:54:27...calling handleSugarConfig()
+2014-02-04 09:54:27...calling handleLog4Php()
+2014-02-04 09:54:27...calling handleHtaccess()
+2014-02-04 09:54:27...calling handleDbCreateDatabase()
+2014-02-04 09:54:27...looping through all the Beans and create their tables
+2014-02-04 09:54:28...processing table acl_actions
+2014-02-04 09:54:28...creating table acl_actions
+2014-02-04 09:54:28...creating Relationship Meta for ACLAction
+2014-02-04 09:54:28...processing table acl_roles
+2014-02-04 09:54:28...creating table acl_roles
+2014-02-04 09:54:28...creating Relationship Meta for ACLRole
+2014-02-04 09:54:28...processing table relationships
+2014-02-04 09:54:28...creating table relationships
+2014-02-04 09:54:28...creating Relationship Meta for Relationship
+2014-02-04 09:54:28...processing table leads
+2014-02-04 09:54:28...creating table leads
+2014-02-04 09:54:28...creating Relationship Meta for Lead
+2014-02-04 09:54:28...processing table cases
+2014-02-20 04:52:18...Begin System Check Process *************
+2014-02-20 04:52:18...XML Parsing Support Found
+2014-02-20 04:52:18...MBString Support Found
+2014-02-20 04:52:18...ZIP Support Found
+2014-02-20 04:52:18.../custom directory and subdirectory check passed
+2014-02-20 04:52:18...cache directory and subdirectory check passed
+2014-02-20 04:52:19.../module  directory and subdirectory check passed
+2014-02-20 04:52:19.../upload directory check passed
+2014-02-20 04:52:19.../zip check passed
+2014-02-20 04:52:19...PCRE version check passed
+2014-02-20 04:52:19...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:52:19...php.ini location found. C:\Program Files (x86)\PHP\v5.3\php.ini
+2014-02-20 04:52:19...Outputting HTML for System check
+2014-02-20 04:52:19...No Errors were found *************
+2014-02-20 04:52:22...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:52:31...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:52:38...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:52:39...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:53:33...Begin DB Check Process *************
+2014-02-20 04:53:33...testing with mysql:mysqli
+2014-02-20 04:53:33...Basic form info is valid, continuing Process.
+2014-02-20 04:53:33...Testing user account...
+2014-02-20 04:53:33...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-02-20 04:53:33...Testing priviliged account...
+2014-02-20 04:53:33...Connection made using  host: 209.105.248.73, usr: root
+2014-02-20 04:53:33...DB not selected, will create sugarcrm_delete
+2014-02-20 04:53:33...ERROR:: Unable to check database version.
+2014-02-20 04:53:33...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2014-02-20 04:53:33..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-02-20 04:53:33..... Unable to check database version.
+2014-02-20 04:53:33...End DB Check Process *************
+2014-02-20 04:55:15...Begin DB Check Process *************
+2014-02-20 04:55:15...testing with mysql:mysqli
+2014-02-20 04:55:15...Basic form info is valid, continuing Process.
+2014-02-20 04:55:15...Testing user account...
+2014-02-20 04:55:15...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-02-20 04:55:15...Testing priviliged account...
+2014-02-20 04:55:15...Connection made using  host: 209.105.248.73, usr: root
+2014-02-20 04:55:15...DB not selected, will create sugarcrm_delete
+2014-02-20 04:55:15...ERROR:: Unable to check database version.
+2014-02-20 04:55:15...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2014-02-20 04:55:15..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password
+2014-02-20 04:55:15..... Unable to check database version.
+2014-02-20 04:55:15...End DB Check Process *************
+2014-02-20 04:55:27...Begin DB Check Process *************
+2014-02-20 04:55:27...testing with mysql:mysqli
+2014-02-20 04:55:27...Basic form info is valid, continuing Process.
+2014-02-20 04:55:27...Testing user account...
+2014-02-20 04:55:27...Connection made using  host: localhost, usr: root
+2014-02-20 04:55:27...Testing priviliged account...
+2014-02-20 04:55:27...Connection made using  host: localhost, usr: root
+2014-02-20 04:55:27...DB not selected, will create sugarcrm_delete
+2014-02-20 04:55:27...Passed DB install check
+2014-02-20 04:55:27...SUCCESS:: no errors detected!
+2014-02-20 04:55:27...End DB Check Process *************
+2014-02-20 04:55:28...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:55:45...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:55:45...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:55:57...installerHook: Could not find custom/install/install_hooks.php
+2014-02-20 04:55:57...calling handleSugarConfig()
+2014-02-20 04:55:57...calling handleLog4Php()
+2014-02-20 04:55:57...calling handleWebConfig()
+2014-02-20 04:55:57...calling handleDbCreateDatabase()
+2014-02-20 04:55:57...looping through all the Beans and create their tables
+2014-02-20 04:55:57...processing table acl_actions
+2014-02-20 04:55:57...creating table acl_actions
+2014-02-20 04:55:57...creating Relationship Meta for ACLAction
+2014-02-20 04:55:57...processing table acl_roles
+2014-02-20 04:55:57...creating table acl_roles
+2014-02-20 04:55:57...creating Relationship Meta for ACLRole
+2014-02-20 04:55:58...processing table relationships
+2014-02-20 04:55:58...creating table relationships
+2014-02-20 04:55:58...creating Relationship Meta for Relationship
+2014-02-20 04:55:58...processing table leads
+2014-02-20 04:55:58...creating table leads
+2014-02-20 04:55:58...creating Relationship Meta for Lead
+2014-02-20 04:55:58...processing table cases

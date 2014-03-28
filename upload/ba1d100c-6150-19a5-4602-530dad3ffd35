@@ -1,0 +1,137 @@
+<html lang='en_us'><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><script type="text/javascript" src="http://www.empowercsiapps.com/ECSICrm/cache/include/javascript/sugar_grp1.js?v=rWyEEGZKYZ7B-RcKB7C8fQ"></script>
+<script type="text/javascript" src="http://www.empowercsiapps.com/ECSICrm/cache/include/javascript/calendar.js?v=rWyEEGZKYZ7B-RcKB7C8fQ"></script>
+<form id="WebToLeadForm" action="http://www.empowercsiapps.com/ECSICrm/index.php?entryPoint=WebToLeadCapture" method="POST" name="WebToLeadForm">
+<table style="border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid; padding: 10px 6px 12px 10px; background-color: #e9f3ff; font-size: 12px; width: 100%; background-position: 50% 0%; background-repeat: repeat no-repeat;">
+<tbody>
+<tr style="color: #0069e1; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 18px; font-weight: bold; margin-bottom: 0px; margin-top: 0px;" align="center">
+<td colspan="4">
+<h2>Register</h2>
+</td>
+</tr>
+<tr style="color: #0069e1; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 2px; font-weight: normal; margin-bottom: 0px; margin-top: 0px;" align="center">
+<td colspan="4">Â </td>
+</tr>
+<tr style="color: #0069e1; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 12px; font-weight: normal; margin-bottom: 0px; margin-top: 0px;" align="left">
+<td colspan="4">Submitting this form, will create new contact with us.</td>
+</tr>
+<tr style="color: #0069e1; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 8px; font-weight: normal; margin-bottom: 0px; margin-top: 0px;" align="center">
+<td colspan="4">Â </td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>First Name: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="first_name" type="text" name="first_name" /></span></td>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Last Name: <span class="required" style="color: #ff0000;">*</span></span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="last_name" type="text" name="last_name" /></span></td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Title: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="title" type="text" name="title" /></span></td>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Website: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="website" type="text" name="website" /></span></td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Department: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="department" type="text" name="department" /></span></td>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Â </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span>Â </span></td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Mobile: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="phone_mobile" type="text" name="phone_mobile" /></span></td>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Â </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span>Â </span></td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Email Address: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><input id="email1" type="text" name="email1" onchange="validateEmailAdd();" /></span></td>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Â </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span>Â </span></td>
+</tr>
+<tr>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Status: </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span><select id="status" name="status" tabindex="1"> <option selected="selected" value="">-none-</option> <option value="New">New</option> <option value="Assigned">Assigned</option> <option value="In Process">In Process</option> <option value="Converted">Converted</option> <option value="Recycled">Recycled</option> <option value="Dead">Dead</option></select></span></td>
+<td style="text-align: left; font-size: 12px; font-weight: normal;" width="15%"><span>Â </span></td>
+<td style="font-size: 12px; font-weight: normal;" width="35%"><span>Â </span></td>
+</tr>
+<tr style="color: #0069e1; font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 18px; font-weight: bold; margin-bottom: 0px; margin-top: 0px;" align="center">
+<td colspan="4">Â </td>
+</tr>
+<tr align="center">
+<td colspan="10"><input class="button" onclick="submit_form();" type="button" name="Submit" value="Resgister" /></td>
+</tr>
+<tr>
+<td style="display: none;"><input id="campaign_id" type="hidden" name="campaign_id" value="48e4a3c1-d8fa-2eae-f7b6-530dac1a0d24" /></td>
+</tr>
+<tr>
+<td style="display: none;"><input id="assigned_user_id" type="hidden" name="assigned_user_id" value="1" /></td>
+</tr>
+<tr>
+<td style="display: none;"><input id="req_id" type="hidden" name="req_id" value="last_name;" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+<script type="text/javascript">// <![CDATA[
+ function submit_form(){
+ 	if(typeof(validateCaptchaAndSubmit)!='undefined'){
+ 		validateCaptchaAndSubmit();
+ 	}else{
+ 		check_webtolead_fields();
+ 	}
+ }
+ function check_webtolead_fields(){
+     if(document.getElementById('bool_id') != null){
+        var reqs=document.getElementById('bool_id').value;
+        bools = reqs.substring(0,reqs.lastIndexOf(';'));
+        var bool_fields = new Array();
+        var bool_fields = bools.split(';');
+        nbr_fields = bool_fields.length;
+        for(var i=0;i<nbr_fields;i++){
+          if(document.getElementById(bool_fields[i]).value == 'on'){
+             document.getElementById(bool_fields[i]).value = 1;
+          }
+          else{
+             document.getElementById(bool_fields[i]).value = 0;
+          }
+        }
+      }
+    if(document.getElementById('req_id') != null){
+        var reqs=document.getElementById('req_id').value;
+        reqs = reqs.substring(0,reqs.lastIndexOf(';'));
+        var req_fields = new Array();
+        var req_fields = reqs.split(';');
+        nbr_fields = req_fields.length;
+        var req = true;
+        for(var i=0;i<nbr_fields;i++){
+          if(document.getElementById(req_fields[i]).value.length <=0 || document.getElementById(req_fields[i]).value==0){
+           req = false;
+           break;
+          }
+        }
+        if(req){
+            document.WebToLeadForm.submit();
+            return true;
+        }
+        else{
+          alert('Please provide all the required fields');
+          return false;
+         }
+        return false
+   }
+   else{
+    document.WebToLeadForm.submit();
+   }
+}
+function validateEmailAdd(){
+	if(document.getElementById('email1') && document.getElementById('email1').value.length >0) {
+		if(document.getElementById('email1').value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/) == null){
+		  alert('Not a valid email address');
+		}
+	}
+	if(document.getElementById('email2') && document.getElementById('email2').value.length >0) {
+		if(document.getElementById('email2').value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/) == null){
+		  alert('Not a valid email address');
+		}
+	}
+}
+// ]]></script></body></html>

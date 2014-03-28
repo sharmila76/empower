@@ -1,0 +1,29 @@
+03/26/14 10:47:17 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 10:48:18 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 10:48:36 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 10:48:48 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 11:05:39 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 11:06:00 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 11:32:24 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 11:49:37 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 11:49:49 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 11:59:39 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+03/26/14 11:59:39 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
+03/26/14 12:17:01 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+03/26/14 12:17:04 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
