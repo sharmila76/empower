@@ -45,18 +45,84 @@ class ViewActivity extends SugarView {
       $args['user_id'] = $user_id;
       $args['start_date'] = $date_start;
       $args['end_date'] = $date_end;
-      $this->ss->assign('USERS_ACTIVITY', $this->get_users_activity($args));
+      $this->ss->assign('USERS_ACTIVITY', $this->get_users_activity($args, 0));
+      $name = $this->get_users_activity($args, 0);
+    }
+    if (!empty($_REQUEST['export_result'])) {
+      $user_id = NULL;
+      if (!empty($_REQUEST['user_id'])) {
+        $user_id = $_REQUEST['user_id'];
+      }
+      $date_start = NULL;
+      if (!empty($_REQUEST['start_date'])) {
+        $date_start = $_REQUEST['start_date'];
+      }
+      $date_end = NULL;
+      if (!empty($_REQUEST['end_date'])) {
+        $date_end = $_REQUEST['end_date'];
+      }
+      if ($user_id) {
+        // return result
+        $args['user_id'] = $user_id;
+        $args['start_date'] = $date_start;
+        $args['end_date'] = $date_end;
+        $get_activity = $this->get_users_activity($args, 1);
+        header('Content-Type: text/csv; charset=utf-8');
+        header('Content-Disposition: attachment; filename=link_point_report.csv');
+        $output = fopen('php://memory', 'w+');
+        fputcsv($output, array('User Name', 'Viewed module', 'Module summary', 'Viewed date'));
+        foreach ($get_activity as $line) {
+          fputcsv($output, $line);
+        }
+        ob_clean();
+        flush();
+        rewind($output);
+        $csv_output = stream_get_contents($output);
+        fclose($output);
+        die($csv_output);
+      }
     }
     $this->ss->display($this->getCustomFilePathIfExists('modules/UsersActivity/tpls/activity.tpl'));
   }
 
-  function get_users_activity($args) {
+  function get_users_activity($args, $export) {
+    if ($export == 1) {
+      global $current_user, $timedate;
+      $args['start_date'] = $timedate->to_db_date($args['start_date'], false);
+      $args['end_date'] = $timedate->to_db_date($args['end_date'], false);
+
+      $q = "SELECT u.user_name, t.module_name, t.item_summary, t.date_modified FROM tracker t JOIN users u ON u.id='" . $args['user_id'] . "' WHERE t.deleted = 0 AND (t.user_id = '" . $args['user_id'] . "' )";
+
+      $date_where = '';
+      if (!empty($args['start_date']) && !empty($args['end_date'])) {
+        $date_where .= "t.date_modified BETWEEN CAST('" . $args['start_date'] . "' AS DATE) AND CAST('" . $args['end_date'] . "' AS DATE)";
+      } else if (!empty($args['start_date'])) {
+        $date_where .= "CAST('" . $args['start_date'] . "' AS DATE) BETWEEN CAST('" . $args['start_date'] . "' AS DATE) AND t.date_modified";
+      } else if (!empty($args['end_date'])) {
+        $date_where .= "t.date_modified BETWEEN t.date_modified AND CAST ('" . $args['end_date'] . "' AS DATE)";
+      }
+
+      if ($date_where != '') {
+        $q .= " AND ($date_where) ";
+      }
+
+      $entries = array();
+      $res = $GLOBALS['db']->query($q);
+      while ($row = $GLOBALS['db']->fetchByAssoc($res)) {
+        $entries[] = $row;
+      }
+      if ($entries) {
+        return $entries;
+      }
+    }
+    
+    
     global $current_user, $timedate;
     $args['start_date'] = $timedate->to_db_date($args['start_date'], false);
     $args['end_date'] = $timedate->to_db_date($args['end_date'], false);
-    
-    $q = "SELECT t.item_id, t.item_summary, t.module_name, t.action, t.date_modified, u.user_name FROM tracker t JOIN users u ON u.id='".$args['user_id']."' WHERE t.deleted = 0 AND (t.user_id = '" . $args['user_id'] . "' )";
-    
+
+    $q = "SELECT t.item_id, t.item_summary, t.module_name, t.action, t.date_modified, u.user_name FROM tracker t JOIN users u ON u.id='" . $args['user_id'] . "' WHERE t.deleted = 0 AND (t.user_id = '" . $args['user_id'] . "' )";
+
     $date_where = '';
     if (!empty($args['start_date']) && !empty($args['end_date'])) {
       $date_where .= "t.date_modified BETWEEN CAST('" . $args['start_date'] . "' AS DATE) AND CAST('" . $args['end_date'] . "' AS DATE)";
@@ -68,18 +134,18 @@ class ViewActivity extends SugarView {
 
     if ($date_where != '') {
       $q .= " AND ($date_where) ";
-    }    
+    }
 
     $entries = array();
     $res = $GLOBALS['db']->query($q);
     while ($row = $GLOBALS['db']->fetchByAssoc($res)) {
       $entries[] = $row;
     }
-    if($entries) {
+    if ($entries) {
       return $entries;
+    } else {
+      return 0;
     }
-    else {
-      return FALSE;
-    }  
   }
+
 }
