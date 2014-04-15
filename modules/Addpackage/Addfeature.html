@@ -1,0 +1,32 @@
+<form method="POST" action="index.php">
+    <input type="hidden" name="module" value="AddPackage">
+    <input type="hidden" name="action" value="Addfeature">
+    <div style="width:98%; margin:0px auto;">
+        <h2>Package Features</h2>
+        <table style="border:1px solid silver; padding:5px; margin-bottom:10px;">
+            <tr>
+                <td><b><font color='#663300'>Feature Code<em>*</em></font></b></td>
+                <td><label><input id="name" type="text" name="code"  style="width:90%" placeholder="[AUTO]"/>
+                    </label></td>
+                <td><b><font color='#663300'>Feature Name<em>*</em></font></b></td>
+                <td><label>
+                        <input type="text" style="width:90%" name="name"/>
+                    </label>
+                </td>
+                <td>Assign Package</td>
+                {if $PACKAGE_LIST}
+                <td><select title="Package" name='select[]' multiple="multiple"  size="5" style="height:auto">
+                        {foreach from=$PACKAGE_LIST item=value}
+                        <option value="{$value.PackageName}">{$value.PackageName}</option>
+                        {/foreach}
+                    </select>
+                </td>
+                {/if}
+                <td>
+                    <input type="image" src="images/add.png" title="Add Feature" value="Save" name="add_feature" width="17">
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+

@@ -3017,9 +3017,9 @@ ul.subpanelTablist li a.current, ul.subpanelTablist li a.current:hover
 /*Bug 29945 */
 .pagination button {
     border-color: #c1c1c1;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
     color: #000;
-    /* background-image: url('../../../../index.php?entryPoint=getImage&themeName=iSales&themeName=iSales&themeName=iSales&themeName=iSales&imageName=bgBtnGray.gif'); */
+    background-image: url('../../../../index.php?entryPoint=getImage&themeName=iSales&themeName=iSales&themeName=iSales&themeName=iSales&imageName=bgBtnGray.gif'); 
 }
 
 .pagination button [title="Return to List"]:hover{
@@ -4357,7 +4357,7 @@ div.action_buttons form {float:left;}
 /* iSales customize start */
 body, td {
     font-family: Arial,Helvetica,sans-serif !important;
-    color: #222 !important;
+    /* color: #222 !important; */
 }
 body {
     /* background: url("../../../../themes/iSales/images/gradient_body.png") repeat-x scroll 0 0 #F8D9AD;*/
@@ -5151,3 +5151,106 @@ ul.clickMenu li ul.subnav li a:hover,ul.clickMenu li ul.subnav li input:hover, u
 
 
 /* end more tab */
+
+/* Table 1 Style */
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 0.2em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 thead th{
+    padding: 15px;
+color: #fff;
+text-shadow: 1px 1px 1px #235F8F;
+border: 1px solid #3773CE;
+border-bottom: 3px solid #3773CE;
+background-color: #3773CE;
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0.02, rgb(67, 112, 192)), color-stop(0.51, rgb(66, 140, 198)), color-stop(0.87, rgb(41, 125, 217)) );
+background: -moz-linear-gradient(
+ center bottom,
+ rgb(123,192,67) 2%,
+ rgb(139,198,66) 51%,
+ rgb(158,217,41) 87%
+ );
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius: 5px 5px 0px 0px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+.table1 tbody th{
+   padding: 15px;
+color: #fff;
+text-shadow: 1px 1px 1px #235F8F;
+border: 1px solid #3773CE;
+border-bottom: 3px solid #3773CE;
+background-color: #3773CE;
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0.02, rgb(67, 112, 192)), color-stop(0.51, rgb(66, 140, 198)), color-stop(0.87, rgb(41, 125, 217)) );
+background: -moz-linear-gradient(
+ center bottom,
+ rgb(123,192,67) 2%,
+ rgb(139,198,66) 51%,
+ rgb(158,217,41) 87%
+ );
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius: 5px 5px 0px 0px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.table_row{
+   padding: 15px;
+color: #fff !important;
+text-shadow: 1px 1px 1px #235F8F !important;
+border: 1px solid #3773CE;
+border-bottom: 3px solid #3773CE;
+background-color: #3773CE;
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0.02, rgb(67, 112, 192)), color-stop(0.51, rgb(66, 140, 198)), color-stop(0.87, rgb(41, 125, 217)) );
+background: -moz-linear-gradient(
+ center bottom,
+ rgb(123,192,67) 2%,
+ rgb(139,198,66) 51%,
+ rgb(158,217,41) 87%
+ );
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius: 5px 5px 0px 0px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+text-align: left !important;
+}
+
+.table1 tfoot td{
+    color: #9CD009;
+    text-align:center;
+    padding:10px 0px;
+}
+.table1 tfoot th{
+    color:#666;
+}
+.table1 tbody td{
+    padding:6px;
+    text-align:center;
+    background-color:#D6EAF8;
+    border: 2px solid #E0E8EF;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+.table1 tbody span.check::before{
+    content : url('../../../../themes/iSales/images/check0.png')
+}
+.table1 tbody span.uncheck::before{
+    content : url('../../../../themes/iSales/images/uncheck.png')
+}
+
