@@ -54,5 +54,8 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_EVAL_EVALUATIONS_SUBPANEL_TITLE' => 'Evaluations',
   'LBL_NEW_FORM_TITLE' => 'New Evaluations',
+    
+  'LBL_ADD_MULTIPLE_CHOICE' => 'Add Subject',
+  'LBL_ADD_QUESTION_AND_ANSWER' => 'Add question and answer'
 );
 ?>

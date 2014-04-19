@@ -6,6 +6,8 @@ $hook_array = Array();
 // position, file, function 
 $hook_array['before_save'] = Array(); 
 $hook_array['before_save'][] = Array(99, 'timesheet logic hook for project', 'modules/Timesheet/countTotalHook.php','countTotalHook', 'before_save'); 
+$hook_array['after_save'] = Array(); 
+$hook_array['after_save'][] = Array(1, 'INSERT_INTO_PM_ENTRY_TABLE', 'modules/PM_ProcessManager/insertIntoPmEntryTable.php','insertIntoPmEntryTable', 'setPmEntryTable'); 
 
 
 

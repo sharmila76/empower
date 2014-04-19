@@ -107,6 +107,9 @@ $app_list_strings = array (
 
     'OAuthKeys' => 'OAuth Consumer Keys',
     'OAuthTokens' => 'OAuth Tokens',
+      
+    //added by Sharmil.
+    'Addpackage' => 'Addpackage',
   ),
 
   'moduleListSingular' =>

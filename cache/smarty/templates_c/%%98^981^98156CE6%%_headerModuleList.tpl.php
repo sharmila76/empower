@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-03-24 10:59:17
+<?php /* Smarty version 2.6.11, created on 2014-04-19 05:55:30
          compiled from themes/iSales/tpls/./_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'themes/iSales/tpls/./_headerModuleList.tpl', 43, false),)), $this); ?>
@@ -19,7 +19,7 @@ if ($this->_foreach['moduleList']['total'] > 0):
             <?php if (count ( $this->_tpl_vars['moduleExtraMenu'] ) > 0): ?>
                 <li>
                     <a href="#" id="toggleMoreTab" onclick="toggleMoreTab();">
-                        &nbsp;<img src="index.php?entryPoint=getImage&themeName=iSales&imageName=s.gif" class="allTabsArrow" title="All Tabs">
+                        &nbsp;<i id="more_to_hide" value="Show More Tabs">Show More Tabs</i>
                         &nbsp;
                     </a>
                     <ul id="moreTab">

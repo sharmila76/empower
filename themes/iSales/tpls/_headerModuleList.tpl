@@ -62,7 +62,7 @@
             {if count($moduleExtraMenu) > 0}
                 <li>
                     <a href="#" id="toggleMoreTab" onclick="toggleMoreTab();">
-                        &nbsp;<img src="index.php?entryPoint=getImage&themeName=iSales&imageName=s.gif" class="allTabsArrow" title="All Tabs">
+                        &nbsp;<i id="more_to_hide" value="Show More Tabs">Show More Tabs</i>
                         &nbsp;
                     </a>
                     <ul id="moreTab">

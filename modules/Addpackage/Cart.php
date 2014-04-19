@@ -3,8 +3,6 @@
 if (!defined('sugarEntry') || !sugarEntry)
   die('Not A Valid Entry Point');
 
-echo 'hi';
-
 echo '<table style="border:1px solid silver; margin-top:15px; width:100%" id="tblFeatures" style="height:auto">
   <tr style="text-align:center; color:#FFFFFF; background-color:#236fbd">
     <td>Select</td>
@@ -22,6 +20,8 @@ while ($row = $GLOBALS['db']->fetchByAssoc($result)) {
 }
 echo '<tr><td colspan="3" style="text-align:right"></td><td style="text-align:right;">Total Amount : </td><td style="font-weight:bold; text-align:right; border-top:1px solid silver;"><span id="Totalcost" >0.00</span></td></tr>
   </table>';
+
+echo '<div style="text-align:right; padding:10px;"><a href="index.php?module=Addpackage&action=Cart"><img src="themes/iSales/images/cart.png" style="height:35px"></a></div>';
 
 $this->ss->display($this->getCustomFilePathIfExists('modules/Addpackage/Cart.html'));
 

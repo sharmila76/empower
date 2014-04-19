@@ -15,7 +15,7 @@ if(ACLController::checkAccess('Timesheet', 'edit', true))
   $module_menu[]=Array("index.php?module=Timesheet&action=EditDailyMatrix&return_module=Timesheet&return_action=ListView", $mod_strings['LNK_NEW_DAILY_MATRIX_TIMESHEET'],"CreateDailyMatrixTimesheet");
 
 if(ACLController::checkAccess('Timesheet', 'edit', true))
-  $module_menu[]=Array("index.php?module=Timesheet&action=Report&return_module=Timesheet&return_action=ListView", $mod_strings['LNK_REPORT'],"ReportTimesheet");
+  $module_menu[]=Array("index.php?module=Timesheet&action=Report", $mod_strings['LNK_REPORT'],"ReportTimesheet");
 
 if (is_admin($current_user)) {
   if(ACLController::checkAccess('Timesheet', 'edit', true)) {
@@ -26,6 +26,8 @@ if (is_admin($current_user)) {
 if(ACLController::checkAccess('Timesheet', 'import', true)) {
     $module_menu[]=Array("index.php?module=Import&action=Step1&import_module=Timesheet&return_module=Timesheet&return_action=index", $mod_strings['LNK_IMPORT'], "Import", 'Timesheet');
 }
+
+$module_menu[]=Array("index.php?module=Timesheet&action=Addpackage&return_module=Timesheet&return_action=ListView", 'Add package');
 
 /*if(ACLController::checkAccess('Timesheet', 'edit', true))
   $module_menu[]=Array("index.php?module=Timesheet&action=TimerConfig&return_module=Timesheet&return_action=ListView", $mod_strings['LNK_TIMER_CONFIG'],"TimerConfig");

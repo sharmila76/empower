@@ -32,3 +32,7 @@ global $mod_strings, $app_strings, $sugar_config;
 if(ACLController::checkAccess('Eval_Evaluations', 'edit', true))$module_menu[]=Array("index.php?module=Eval_Evaluations&action=EditView&return_module=Eval_Evaluations&return_action=DetailView", $mod_strings['LNK_NEW_RECORD'],"CreateEval_Evaluations", 'Eval_Evaluations');
 if(ACLController::checkAccess('Eval_Evaluations', 'list', true))$module_menu[]=Array("index.php?module=Eval_Evaluations&action=index&return_module=Eval_Evaluations&return_action=DetailView", $mod_strings['LNK_LIST'],"Eval_Evaluations", 'Eval_Evaluations');
 if(ACLController::checkAccess('Eval_Evaluations', 'import', true))$module_menu[]=Array("index.php?module=Import&action=Step1&import_module=Eval_Evaluations&return_module=Eval_Evaluations&return_action=index", $app_strings['LBL_IMPORT'],"Import", 'Eval_Evaluations');
+
+//Added by Sharmila for adding questions
+$module_menu[]=Array("index.php?module=Eval_Evaluations&action=Addsubject", $mod_strings['LBL_ADD_MULTIPLE_CHOICE']);
+$module_menu[]=Array("index.php?module=Eval_Evaluations&action=Addqa", $mod_strings['LBL_ADD_QUESTION_AND_ANSWER']);

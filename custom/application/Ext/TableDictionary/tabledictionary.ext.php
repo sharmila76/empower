@@ -123,6 +123,16 @@ include('custom/metadata/oss_teammember_project_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/PM_ProcessManagerStage_pm_processmanagerstagetaskMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/PM_ProcessManager_pm_processmanagerstageMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/projecttask_timesheetMetaData.php');
 
 

@@ -63,6 +63,7 @@ $moduleList[] = 'Documents';
 $moduleList[] = 'Cases';
 $moduleList[] = 'Project';
 $moduleList[] = 'Bugs';
+$moduleList[] = 'Addpackage';
 
 
 // this list defines all of the module names and bean names in the app

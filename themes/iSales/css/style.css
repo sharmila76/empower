@@ -4539,18 +4539,21 @@ body {
     vertical-align: top;
 }
 
-.zen .zen-headerBottom{
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    /*background: -moz-linear-gradient(#55C8D6,#CDE8F0);
-    background: -webkit-linear-gradient(#55C8D6,#CDE8F0);
-    background: linear-gradient(#55C8D6,#CDE8F0);*/
-    background: #E2E2E2;
-    -moz-box-shadow: 0 3px 10px hsla(100,0%,0%,.3);
-    -webkit-box-shadow: 0 3px 10px hsla(100,0%,0%,.3);
-    box-shadow: 0 3px 10px hsla(100,0%,0%,.3);
+.zen .zen-headerBottom>ul>li{
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    -moz-box-shadow: 3px 0 5px -3px #999,-3px 0 5px -3px #999;
+    -webkit-box-shadow: 3px 0 5px -3px #999,-3px 0 5px -3px #999;
+    box-shadow: 3px 0 5px -3px #999,-3px 0 5px -3px #999;
+    background-image: -moz-linear-gradient(rgba(255,255,255,.50),rgba(255,255,255,0) 12px);
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.50),rgba(255,255,255,0) 12px);
+    background-image: -ms-linear-gradient(rgba(255,255,255,.50),rgba(255,255,255,0) 12px);
+    padding: 0 7px;
+    margin: 0 3px;
+    background-color: #236fbd;
+    border-color: #236fbd;
 }
 
 .zen .zen-tabMenu {
@@ -4582,7 +4585,7 @@ body {
 
 .zen .zen-tabMenu a {
     font-size: 1em;
-    color: #353535;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -4597,24 +4600,21 @@ body {
 }
 
 .zen .zen-tabMenu .zen-active {
-    -moz-border-radius-topleft: 7px;
-    -moz-border-radius-topright: 7px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    -moz-box-shadow: 3px 0 5px -3px #999,-3px 0 5px -3px #999;
-    -webkit-box-shadow: 3px 0 5px -3px #999,-3px 0 5px -3px #999;
-    box-shadow: 3px 0 5px -3px #999,-3px 0 5px -3px #999;
-    background-image: -moz-linear-gradient(rgba(255,255,255,.50),rgba(255,255,255,0) 12px);
-    background-image: -webkit-linear-gradient(rgba(255,255,255,.50),rgba(255,255,255,0) 12px);
-    background-image: -ms-linear-gradient(rgba(255,255,255,.50),rgba(255,255,255,0) 12px);
-    padding: 0 7px;
-    margin: 0 3px;
-    background-color: #236fbd;
-    border-color: #236fbd;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*background: -moz-linear-gradient(#55C8D6,#CDE8F0);
+    background: -webkit-linear-gradient(#55C8D6,#CDE8F0);
+    background: linear-gradient(#55C8D6,#CDE8F0);*/
+    background: #E2E2E2;
+    -moz-box-shadow: 0 3px 10px hsla(100,0%,0%,.3);
+    -webkit-box-shadow: 0 3px 10px hsla(100,0%,0%,.3);
+    box-shadow: 0 3px 10px hsla(100,0%,0%,.3);
 }
 
 .zen .zen-tabMenu .zen-active>a {
-    color: #fff;
+    color: black;
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: transparent;
@@ -5252,5 +5252,9 @@ text-align: left !important;
 }
 .table1 tbody span.uncheck::before{
     content : url('../../../../themes/iSales/images/uncheck.png')
+}
+
+#number_of_questions, #time_allocation {
+    width: 30px;
 }
 

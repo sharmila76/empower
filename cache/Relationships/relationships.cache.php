@@ -6331,6 +6331,216 @@
     'join_key_lhs' => 'oss_teamme8760mmember_ida',
     'join_key_rhs' => 'oss_teamme5613project_idb',
   ),
+  'PM_ProcessManagerStage_pm_processmanagerstagetask' => 
+  array (
+    'name' => 'PM_ProcessManagerStage_pm_processmanagerstagetask',
+    'table' => 'pm_processmgerstagetask',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'pm_processmanagerstage_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'pm_processmanagerstagetask_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'pm_processmgerstagetaskspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'pm_processmgerstagetask_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pm_processmanagerstage_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'pm_processmgerstagetask_idb2',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pm_processmanagerstagetask_idb',
+        ),
+      ),
+      3 => 
+      array (
+        'name' => 'pm_processmgerstagetask_idc3',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pm_processmanagerstage_ida',
+          1 => 'pm_processmanagerstagetask_idb',
+        ),
+      ),
+    ),
+    'relationships' => 
+    array (
+      'PM_ProcessManagerStage_pm_processmanagerstagetask' => 
+      array (
+        'lhs_module' => 'PM_ProcessManagerStage',
+        'lhs_table' => 'pm_processmanagerstage',
+        'lhs_key' => 'id',
+        'rhs_module' => 'PM_ProcessManagerStageTask',
+        'rhs_table' => 'pm_processmanagerstagetask',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'pm_processmgerstagetask',
+        'join_key_lhs' => 'pm_processmanagerstage_ida',
+        'join_key_rhs' => 'pm_processmanagerstagetask_idb',
+      ),
+    ),
+    'lhs_module' => 'PM_ProcessManagerStage',
+    'lhs_table' => 'pm_processmanagerstage',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStageTask',
+    'rhs_table' => 'pm_processmanagerstagetask',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'pm_processmgerstagetask',
+    'join_key_lhs' => 'pm_processmanagerstage_ida',
+    'join_key_rhs' => 'pm_processmanagerstagetask_idb',
+  ),
+  'PM_ProcessManager_pm_processmanagerstage' => 
+  array (
+    'name' => 'PM_ProcessManager_pm_processmanagerstage',
+    'table' => 'pm_processmmanagerstage',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'pm_processmanager_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'pm_processmanagerstage_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'pm_processmmanagerstagespk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'pm_processmmanagerstage_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pm_processmanager_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'pm_processmmanagerstage_idb2',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pm_processmanagerstage_idb',
+        ),
+      ),
+      3 => 
+      array (
+        'name' => 'pm_processmmanagerstage_idc3',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pm_processmanager_ida',
+          1 => 'pm_processmanagerstage_idb',
+        ),
+      ),
+    ),
+    'relationships' => 
+    array (
+      'PM_ProcessManager_pm_processmanagerstage' => 
+      array (
+        'lhs_module' => 'PM_ProcessManager',
+        'lhs_table' => 'pm_processmanager',
+        'lhs_key' => 'id',
+        'rhs_module' => 'PM_ProcessManagerStage',
+        'rhs_table' => 'pm_processmanagerstage',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'pm_processmmanagerstage',
+        'join_key_lhs' => 'pm_processmanager_ida',
+        'join_key_rhs' => 'pm_processmanagerstage_idb',
+      ),
+    ),
+    'lhs_module' => 'PM_ProcessManager',
+    'lhs_table' => 'pm_processmanager',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStage',
+    'rhs_table' => 'pm_processmanagerstage',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'pm_processmmanagerstage',
+    'join_key_lhs' => 'pm_processmanager_ida',
+    'join_key_rhs' => 'pm_processmanagerstage_idb',
+  ),
   'projecttask_timesheet' => 
   array (
     'name' => 'projecttask_timesheet',
@@ -9601,6 +9811,39 @@
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),
+  'pc123_package_modified_user' => 
+  array (
+    'name' => 'pc123_package_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PC123_Package',
+    'rhs_table' => 'pc123_package',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pc123_package_created_by' => 
+  array (
+    'name' => 'pc123_package_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PC123_Package',
+    'rhs_table' => 'pc123_package',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pc123_package_assigned_user' => 
+  array (
+    'name' => 'pc123_package_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PC123_Package',
+    'rhs_table' => 'pc123_package',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
   'eval_evaluations_modified_user' => 
   array (
     'name' => 'eval_evaluations_modified_user',
@@ -10294,6 +10537,105 @@
     'lhs_key' => 'id',
     'rhs_module' => 'Rec_Recruitment_Agency',
     'rhs_table' => 'rec_recruitment_agency',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanager_modified_user' => 
+  array (
+    'name' => 'pm_processmanager_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManager',
+    'rhs_table' => 'pm_processmanager',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanager_created_by' => 
+  array (
+    'name' => 'pm_processmanager_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManager',
+    'rhs_table' => 'pm_processmanager',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanager_assigned_user' => 
+  array (
+    'name' => 'pm_processmanager_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManager',
+    'rhs_table' => 'pm_processmanager',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanagerstage_modified_user' => 
+  array (
+    'name' => 'pm_processmanagerstage_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStage',
+    'rhs_table' => 'pm_processmanagerstage',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanagerstage_created_by' => 
+  array (
+    'name' => 'pm_processmanagerstage_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStage',
+    'rhs_table' => 'pm_processmanagerstage',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanagerstage_assigned_user' => 
+  array (
+    'name' => 'pm_processmanagerstage_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStage',
+    'rhs_table' => 'pm_processmanagerstage',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanagerstagetask_modified_user' => 
+  array (
+    'name' => 'pm_processmanagerstagetask_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStageTask',
+    'rhs_table' => 'pm_processmanagerstagetask',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanagerstagetask_created_by' => 
+  array (
+    'name' => 'pm_processmanagerstagetask_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStageTask',
+    'rhs_table' => 'pm_processmanagerstagetask',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pm_processmanagerstagetask_assigned_user' => 
+  array (
+    'name' => 'pm_processmanagerstagetask_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PM_ProcessManagerStageTask',
+    'rhs_table' => 'pm_processmanagerstagetask',
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),

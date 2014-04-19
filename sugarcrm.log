@@ -1,29 +1,77 @@
-03/26/14 10:47:17 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 10:48:18 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 10:48:36 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 10:48:48 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 11:05:39 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 11:06:00 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 11:32:24 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 11:49:37 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 11:49:49 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:17 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:18 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 11:59:39 [5900][1][FATAL] SugarPHPMailer encountered an error: Invalid address: 
-03/26/14 11:59:39 [5900][1][FATAL] SugarPHPMailer encountered an error: You must provide at least one recipient email address.
-03/26/14 12:17:01 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
-03/26/14 12:17:04 [5900][1][FATAL]  Query Failed: INSERT into package_amount (module_name, amount, deleted) VALUES ('Rec_Recruitment_Agency', 0, 0): MySQL error 1406: Data too long for column 'module_name' at row 1
+04/15/14 12:03:30 [5180][1][FATAL]  Query Failed: INSERT package_pricemaster SET PackageCode='',PackageName='Standard', TotUsers='10 Users', Subscription='1 Month', price='', discount='', maxdiscount='', IsAvailable=1: MySQL error 1366: Incorrect decimal value: '' for column 'Price' at row 1
+04/16/14 04:47:28 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:30 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:32 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:33 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:34 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:36 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:38 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:39 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:40 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:41 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:43 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:44 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:46 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:47 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:51 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:47:56 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:48:00 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 04:48:04 [5876][1][FATAL] Failed to load original or custom subpanel data for inventory_items in modules/Inventory_items/metadata/subpanels/default.php
+04/16/14 07:55:22 [6068][1][FATAL]  Query Failed:  SELECT  contacts.id , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) as name, contacts.first_name , contacts.last_name , contacts.salutation  , accounts.name account_name, jtl0.account_id account_id, contacts.title , contacts.phone_work  , jt1.name contacts_lg_portaluser_name, jtl1.contacts_ld6e8taluser_idb contacts_ld6e8taluser_idb , LTRIM(RTRIM(CONCAT(IFNULL(jt2.first_name,''),' ',IFNULL(jt2.last_name,'')))) assigned_user_name , jt2.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, contacts.assigned_user_id  FROM contacts   LEFT JOIN  accounts_contacts jtl0 ON contacts.id=jtl0.contact_id AND jtl0.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  contacts_lg_portaluser_c jtl1 ON contacts.id=jtl1.contacts_l86fcontacts_ida AND jtl1.deleted=0
+
+ LEFT JOIN  lg_portaluser jt1 ON jt1.id=jtl1.contacts_ld6e8taluser_idb AND jt1.deleted=0
+ AND jt1.deleted=0  LEFT JOIN  users jt2 ON contacts.assigned_user_id=jt2.id AND jt2.deleted=0
+
+ AND jt2.deleted=0 where ((( contacts.first_name like 'akdsfj%' OR contacts.last_name like 'akdsfj%' ))) AND contacts.deleted=0 ORDER BY contacts.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'ecsiapps_ecsicrmdev.lg_portaluser' doesn't exist
+04/16/14 08:37:17 [6068][1][FATAL]  Query Failed:  SELECT  contacts.id , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) as name, contacts.first_name , contacts.last_name , contacts.salutation  , accounts.name account_name, jtl0.account_id account_id, contacts.title , contacts.phone_work  , jt1.name contacts_lg_portaluser_name, jtl1.contacts_ld6e8taluser_idb contacts_ld6e8taluser_idb , LTRIM(RTRIM(CONCAT(IFNULL(jt2.first_name,''),' ',IFNULL(jt2.last_name,'')))) assigned_user_name , jt2.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, contacts.assigned_user_id  FROM contacts   LEFT JOIN  accounts_contacts jtl0 ON contacts.id=jtl0.contact_id AND jtl0.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  contacts_lg_portaluser_c jtl1 ON contacts.id=jtl1.contacts_l86fcontacts_ida AND jtl1.deleted=0
+
+ LEFT JOIN  lg_portaluser jt1 ON jt1.id=jtl1.contacts_ld6e8taluser_idb AND jt1.deleted=0
+ AND jt1.deleted=0  LEFT JOIN  users jt2 ON contacts.assigned_user_id=jt2.id AND jt2.deleted=0
+
+ AND jt2.deleted=0 where ((( contacts.first_name like 'akdsfj%' OR contacts.last_name like 'akdsfj%' ))) AND contacts.deleted=0 ORDER BY contacts.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'ecsiapps_ecsicrmdev.lg_portaluser' doesn't exist
+04/16/14 08:42:28 [6068][1][FATAL]  Query Failed:  SELECT  contacts.id , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) as name, contacts.first_name , contacts.last_name , contacts.salutation  , accounts.name account_name, jtl0.account_id account_id, contacts.title , contacts.phone_work  , jt1.name contacts_lg_portaluser_name, jtl1.contacts_ld6e8taluser_idb contacts_ld6e8taluser_idb , LTRIM(RTRIM(CONCAT(IFNULL(jt2.first_name,''),' ',IFNULL(jt2.last_name,'')))) assigned_user_name , jt2.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, contacts.assigned_user_id  FROM contacts   LEFT JOIN  accounts_contacts jtl0 ON contacts.id=jtl0.contact_id AND jtl0.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  contacts_lg_portaluser_c jtl1 ON contacts.id=jtl1.contacts_l86fcontacts_ida AND jtl1.deleted=0
+
+ LEFT JOIN  lg_portaluser jt1 ON jt1.id=jtl1.contacts_ld6e8taluser_idb AND jt1.deleted=0
+ AND jt1.deleted=0  LEFT JOIN  users jt2 ON contacts.assigned_user_id=jt2.id AND jt2.deleted=0
+
+ AND jt2.deleted=0 where ((( contacts.first_name like 'akdsfj%' OR contacts.last_name like 'akdsfj%' ))) AND contacts.deleted=0 ORDER BY contacts.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'ecsiapps_ecsicrmdev.lg_portaluser' doesn't exist
+04/16/14 08:42:38 [6068][1][FATAL]  Query Failed:  SELECT  contacts.id , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) as name, contacts.first_name , contacts.last_name , contacts.salutation  , accounts.name account_name, jtl0.account_id account_id, contacts.title , contacts.phone_work  , jt1.name contacts_lg_portaluser_name, jtl1.contacts_ld6e8taluser_idb contacts_ld6e8taluser_idb , LTRIM(RTRIM(CONCAT(IFNULL(jt2.first_name,''),' ',IFNULL(jt2.last_name,'')))) assigned_user_name , jt2.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, contacts.assigned_user_id  FROM contacts   LEFT JOIN  accounts_contacts jtl0 ON contacts.id=jtl0.contact_id AND jtl0.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  contacts_lg_portaluser_c jtl1 ON contacts.id=jtl1.contacts_l86fcontacts_ida AND jtl1.deleted=0
+
+ LEFT JOIN  lg_portaluser jt1 ON jt1.id=jtl1.contacts_ld6e8taluser_idb AND jt1.deleted=0
+ AND jt1.deleted=0  LEFT JOIN  users jt2 ON contacts.assigned_user_id=jt2.id AND jt2.deleted=0
+
+ AND jt2.deleted=0 where ((( contacts.first_name like 'akdsfj%' OR contacts.last_name like 'akdsfj%' ))) AND contacts.deleted=0 ORDER BY contacts.date_entered DESC LIMIT 0,21: MySQL error 1146: Table 'ecsiapps_ecsicrmdev.lg_portaluser' doesn't exist
+04/16/14 10:50:53 [6068][1][FATAL] Error: Module Addactivity does not exist.
+04/19/14 05:14:43 [6132][1][FATAL]  Query Failed: INSERT INTO `subject table` (`subject_code`, `subject_description`, `number_of_questions`, `time_allocation`, `created_by`, `creation_date`, `modified_by`, `modified_date`) VALUES (NULL, 'ASDF', '', '', '1', '2014-04-19 05:14:43', '1', '2014-04-19 05:14:43'): MySQL error 1366: Incorrect integer value: '' for column 'number_of_questions' at row 1
+04/19/14 05:56:51 [6120][1][FATAL]  Query Failed: SELECT * FROM 'subject table': MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''subject table'' at line 1
+04/19/14 05:57:21 [6120][1][FATAL]  Query Failed: SELECT * FROM subject table: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+04/19/14 05:57:42 [6120][1][FATAL]  Query Failed: SELECT * FROM subject table: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1

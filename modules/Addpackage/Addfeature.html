@@ -1,3 +1,21 @@
+<link rel="stylesheet" type="text/css" href="themes/iSales/css/jquery.multiselect.css" />
+
+<link rel="stylesheet" type="text/css" href="themes/iSales/css/jquery-ui-1.10.4.custom.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="themes/iSales/js/prettify.js"></script>
+<script type="text/javascript" src="themes/iSales/js/jquery.multiselect.js"></script>
+<script type="text/javascript">
+    {
+        literal
+    }
+    $(function() {
+        $("select").multiselect();
+    });
+    {
+        /literal}
+</script>
+
 <form method="POST" action="index.php">
     <input type="hidden" name="module" value="AddPackage">
     <input type="hidden" name="action" value="Addfeature">
@@ -23,7 +41,7 @@
                 </td>
                 {/if}
                 <td>
-                    <input type="image" src="images/add.png" title="Add Feature" value="Save" name="add_feature" width="17">
+                    <input type="submit" title="Add Feature" value="Save" name="add_feature" width="17">
                 </td>
             </tr>
         </table>

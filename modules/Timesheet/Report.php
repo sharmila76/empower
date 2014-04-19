@@ -70,9 +70,9 @@ $xtpl->assign("CALENDAR_DATEFORMAT", $timedate->get_cal_date_format());
 //if (isset($_REQUEST['return_action'])) $xtpl->assign("RETURN_ACTION", $_REQUEST['return_action']);
 //if (isset($_REQUEST['return_id'])) $xtpl->assign("RETURN_ID", $_REQUEST['return_id']);
 // handle Create $module then Cancel
-if (empty($_REQUEST['return_id'])) {
-	$xtpl->assign("RETURN_ACTION", 'index');
-}
+//if (empty($_REQUEST['return_id'])) {
+	//$xtpl->assign("RETURN_ACTION", 'index');
+//}
 $xtpl->assign("THEME", $theme);
 $xtpl->assign("IMAGE_PATH", $image_path);$xtpl->assign("PRINT_URL", "index.php?".$GLOBALS['request_string']);
 

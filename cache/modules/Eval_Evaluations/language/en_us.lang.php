@@ -1,5 +1,5 @@
 <?php
-// created: 2014-03-25 09:49:59
+// created: 2014-04-19 07:47:21
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -32,6 +32,8 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_EVAL_EVALUATIONS_SUBPANEL_TITLE' => 'Evaluations',
   'LBL_NEW_FORM_TITLE' => 'New Evaluations',
+  'LBL_ADD_MULTIPLE_CHOICE' => 'Add Subject',
+  'LBL_ADD_QUESTION_AND_ANSWER' => 'Add question and answer',
   'LBL_GAUR_CANDIDATES_EVAL_EVALUATIONS_FROM_GAUR_CANDIDATES_TITLE' => 'Candidates',
   'LBL_EVAL_EVALUATIONS_CALLS_FROM_CALLS_TITLE' => 'Calls',
   'VALUE' => 'Logical',

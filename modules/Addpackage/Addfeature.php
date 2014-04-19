@@ -4,8 +4,9 @@ if (!defined('sugarEntry') || !sugarEntry)
   die('Not A Valid Entry Point');
 
 if (isset($_POST['add_feature'])) {
-  $name = mysql_real_escape_string(htmlspecialchars($_POST['name']));
-  $code = mysql_real_escape_string(htmlspecialchars($_POST['code']));
+  echo 'hi';
+  $name = $_POST['name'];
+  $code = $_POST['code'];
  
   $PcCode = '';
   if (!empty($_POST['select'])) {
