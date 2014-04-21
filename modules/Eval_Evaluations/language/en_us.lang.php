@@ -56,6 +56,7 @@ $mod_strings = array (
   'LBL_NEW_FORM_TITLE' => 'New Evaluations',
     
   'LBL_ADD_MULTIPLE_CHOICE' => 'Add Subject',
-  'LBL_ADD_QUESTION_AND_ANSWER' => 'Add question and answer'
+  'LBL_ADD_QUESTION_AND_ANSWER' => 'Add question and answer',
+  'LBL_ASSIGN_TEST' => 'Assing test',
 );
 ?>

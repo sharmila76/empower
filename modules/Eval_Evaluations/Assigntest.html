@@ -1,0 +1,78 @@
+<form name="EditView" method="GET" action="index.php">
+    <input type="hidden" name="module" value="Eval_Evaluations">
+    <input type="hidden" name="action" value="Assigntest">
+
+    <table style="border:1px solid silver; padding:5px; margin-bottom:10px;">
+        <tr>
+            <td>
+                <label>Name of the candidate</label>
+            </td>
+            <td>
+                <input type="text" name="candidate_name" value={$candidate_name}>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Select Subject</label>
+            </td>
+            {if $SUBJECT_LIST}
+            <td><select name='subject_name'>
+                    {foreach from=$SUBJECT_LIST item=value}
+                    <option value="{$value.subject_description}">{$value.subject_description}</option>
+                    {/foreach}
+                </select>
+            </td>
+            {/if}
+        </tr>
+        <tr>
+            <td>
+                <label>Number of Questions</label>
+            </td>
+            <td>
+                <input id="number_of_questions" type="text" name="number_of_questions" value={$questions}>
+            </td>        
+        </tr>
+        <td>
+            <label>Time Allocated</label> 
+        </td>
+        <td>
+            <input id="time_allocation" type="text" name="allocation_time">Minutes
+        </td>
+    </table>
+    <input type="submit" value="Start" name="start_test">
+</form>
+
+<form method="POST" action="index.php">
+    <input type="hidden" name="module" value="Eval_Evaluations">
+    <input type="hidden" name="action" value="Assigntest">
+    
+    {if $questions_list}
+    {foreach from=$questions_list item=value}
+    <table>
+        <tr>
+        <input type="hidden" name="question[]" value="{$value.question_code}">
+        <input type="hidden" name="correct_answer[]" value="{$value.correct_answer}">
+        <td>{$value.question_name}</td>
+        </tr>
+        <tr>
+            <td><input name="{$value.question_code}[]" type="checkbox" value="{$value.answer1}">{$value.answer1}</td>
+        </tr>   
+        <tr>    
+            <td><input name="{$value.question_code}[]" type="checkbox" value="{$value.answer2}">{$value.answer2}</td>
+        </tr>
+        <tr>
+            <td><input name="{$value.question_code}[]" type="checkbox" value="{$value.answer3}">{$value.answer3}</td>
+        </tr>
+        <tr>
+            <td><input name="{$value.question_code}[]" type="checkbox" value="{$value.answer4}">{$value.answer4}</td>
+        </tr>
+        <tr>
+            <td>---</td>
+        </tr>
+    </table>
+    {/foreach}
+    <input type="submit" value="Submit Test" name="submit_test">
+    {/if}    
+</form>
+
+

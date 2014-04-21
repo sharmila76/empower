@@ -1,10 +1,10 @@
-<?php /* Smarty version 2.6.11, created on 2014-04-19 06:45:13
+<?php /* Smarty version 2.6.11, created on 2014-04-21 12:17:34
          compiled from modules/Eval_Evaluations/Addqa.html */ ?>
 <form name="EditView" method="GET" action="index.php">
     <input type="hidden" name="module" value="Eval_Evaluations">
     <input type="hidden" name="action" value="Addqa">
     
-    <table>
+    <table style="border:1px solid silver; padding:5px; margin-bottom:10px;">
         <tr>
             <td>
                 <label>Select a subject</label>
@@ -58,29 +58,29 @@
             </td>        
         </tr>
     </table>           
-    <table style="width:300px">
+    <table style="border:1px solid silver; padding:5px; margin-bottom:10px;">
         <tr>
             <th>SI</th>
             <th>Answers</th>		
             <th>Flag</th>
         </tr>
         <tr>
-            <td><input id="number_of_questions" type="text" name="si_1"></td>
+            <td>1</td>
             <td><input type="text" name="answer1"></td>		
             <td><input type="checkbox" name="correct1"></td>
         </tr>
         <tr>
-            <td><input id="number_of_questions" type="text" name="si_2"></td>
+            <td>2</td>
             <td><input type="text" name="answer2"></td>		
             <td><input type="checkbox" name="correct2"></td>
         </tr>
         <tr>
-            <td><input id="number_of_questions" type="text" name="si_3"></td>
+            <td>3</td>
             <td><input type="text" name="answer3"></td>		
             <td><input type="checkbox" name="correct3"></td>
         </tr>
         <tr>
-            <td><input id="number_of_questions" type="text" name="si_4"></td>
+            <td>4</td>
             <td><input type="text" name="answer4"></td>		
             <td><input type="checkbox" name="correct4"></td>
         </tr>

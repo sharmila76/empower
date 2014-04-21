@@ -1,0 +1,1 @@
+SUGAR.language.setLanguage('Addpackage', {"LNK_ADDPACKAGE":"Add package","LNK_ADDFEATURE":"Add Feature","LNK_PRICING":"Pricing","LNK_BOOKING":"Booking"});

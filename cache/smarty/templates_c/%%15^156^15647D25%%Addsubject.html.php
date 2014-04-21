@@ -1,10 +1,10 @@
-<?php /* Smarty version 2.6.11, created on 2014-04-19 06:05:01
+<?php /* Smarty version 2.6.11, created on 2014-04-21 12:15:06
          compiled from modules/Eval_Evaluations/Addsubject.html */ ?>
 <form name="EditView" method="GET" action="index.php">
 <input type="hidden" name="module" value="Eval_Evaluations">
 <input type="hidden" name="action" value="Addsubject">
 
-<table>
+<table style="border:1px solid silver; padding:5px; margin-bottom:10px;">
     <tr>
         <td>
             <label>Subject code</label>

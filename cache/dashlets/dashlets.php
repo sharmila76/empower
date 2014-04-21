@@ -1,5 +1,5 @@
 <?php
-// created: 2014-03-25 06:18:15
+// created: 2014-04-21 06:38:00
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -304,6 +304,13 @@ $dashletsFiles = array (
     'class' => 'OSS_TeamMemberDashlet',
     'meta' => 'modules/OSS_TeamMember/Dashlets/OSS_TeamMemberDashlet/OSS_TeamMemberDashlet.meta.php',
     'module' => 'OSS_TeamMember',
+  ),
+  'PC123_PackageDashlet' => 
+  array (
+    'file' => 'modules/PC123_Package/Dashlets/PC123_PackageDashlet/PC123_PackageDashlet.php',
+    'class' => 'PC123_PackageDashlet',
+    'meta' => 'modules/PC123_Package/Dashlets/PC123_PackageDashlet/PC123_PackageDashlet.meta.php',
+    'module' => 'PC123_Package',
   ),
   'MyProjectTaskDashlet' => 
   array (

@@ -36,3 +36,4 @@ if(ACLController::checkAccess('Eval_Evaluations', 'import', true))$module_menu[]
 //Added by Sharmila for adding questions
 $module_menu[]=Array("index.php?module=Eval_Evaluations&action=Addsubject", $mod_strings['LBL_ADD_MULTIPLE_CHOICE']);
 $module_menu[]=Array("index.php?module=Eval_Evaluations&action=Addqa", $mod_strings['LBL_ADD_QUESTION_AND_ANSWER']);
+$module_menu[]=Array("index.php?module=Eval_Evaluations&action=Assigntest", $mod_strings['LBL_ASSIGN_TEST']);
