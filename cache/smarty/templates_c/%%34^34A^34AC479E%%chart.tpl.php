@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-04-21 06:38:01
+<?php /* Smarty version 2.6.11, created on 2014-04-22 12:39:12
          compiled from include/SugarCharts/Jit/tpls/chart.tpl */ ?>
 
 <?php if (! $this->_tpl_vars['error']): ?>

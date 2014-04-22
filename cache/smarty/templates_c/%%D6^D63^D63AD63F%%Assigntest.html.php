@@ -1,8 +1,8 @@
-<?php /* Smarty version 2.6.11, created on 2014-04-21 12:18:50
+<?php /* Smarty version 2.6.11, created on 2014-04-22 09:29:18
          compiled from modules/Eval_Evaluations/Assigntest.html */ ?>
 <form name="EditView" method="GET" action="index.php">
     <input type="hidden" name="module" value="Eval_Evaluations">
-    <input type="hidden" name="action" value="Assigntest">
+    <input type="hidden" name="action" value="Questions">
 
     <table style="border:1px solid silver; padding:5px; margin-bottom:10px;">
         <tr>
@@ -50,54 +50,6 @@
     <input type="submit" value="Start" name="start_test">
 </form>
 
-<form method="POST" action="index.php">
-    <input type="hidden" name="module" value="Eval_Evaluations">
-    <input type="hidden" name="action" value="Assigntest">
-    
-    <?php if ($this->_tpl_vars['questions_list']): ?>
-    <?php $_from = $this->_tpl_vars['questions_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['value']):
-?>
-    <table>
-        <tr>
-        <input type="hidden" name="question[]" value="<?php echo $this->_tpl_vars['value']['question_code']; ?>
-">
-        <input type="hidden" name="correct_answer[]" value="<?php echo $this->_tpl_vars['value']['correct_answer']; ?>
-">
-        <td><?php echo $this->_tpl_vars['value']['question_name']; ?>
-</td>
-        </tr>
-        <tr>
-            <td><input name="<?php echo $this->_tpl_vars['value']['question_code']; ?>
-[]" type="checkbox" value="<?php echo $this->_tpl_vars['value']['answer1']; ?>
-"><?php echo $this->_tpl_vars['value']['answer1']; ?>
-</td>
-        </tr>   
-        <tr>    
-            <td><input name="<?php echo $this->_tpl_vars['value']['question_code']; ?>
-[]" type="checkbox" value="<?php echo $this->_tpl_vars['value']['answer2']; ?>
-"><?php echo $this->_tpl_vars['value']['answer2']; ?>
-</td>
-        </tr>
-        <tr>
-            <td><input name="<?php echo $this->_tpl_vars['value']['question_code']; ?>
-[]" type="checkbox" value="<?php echo $this->_tpl_vars['value']['answer3']; ?>
-"><?php echo $this->_tpl_vars['value']['answer3']; ?>
-</td>
-        </tr>
-        <tr>
-            <td><input name="<?php echo $this->_tpl_vars['value']['question_code']; ?>
-[]" type="checkbox" value="<?php echo $this->_tpl_vars['value']['answer4']; ?>
-"><?php echo $this->_tpl_vars['value']['answer4']; ?>
-</td>
-        </tr>
-        <tr>
-            <td>---</td>
-        </tr>
-    </table>
-    <?php endforeach; endif; unset($_from); ?>
-    <input type="submit" value="Submit Test" name="submit_test">
-    <?php endif; ?>    
-</form>
+
 
 
