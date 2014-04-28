@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-04-21 12:15:06
+<?php /* Smarty version 2.6.11, created on 2014-04-23 11:17:08
          compiled from modules/Eval_Evaluations/Addsubject.html */ ?>
 <form name="EditView" method="GET" action="index.php">
 <input type="hidden" name="module" value="Eval_Evaluations">
@@ -10,7 +10,7 @@
             <label>Subject code</label>
         </td>
         <td>
-            <input type="text">
+            <input type="text" value="Auto" disabled>
         </td>
     </tr>
     <tr>

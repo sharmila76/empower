@@ -9,6 +9,7 @@ $hook_array['after_retrieve'][] = Array(1, 'Teams CE Extension', 'modules/team/t
 $hook_array['before_save'] = Array(); 
 $hook_array['before_save'][] = Array(1, 'Teams CE Extension', 'modules/team/teams_logic.php','teams_logic', 'set_default_team_bean'); 
 $hook_array['after_ui_footer'] = Array(); 
+$hook_array['after_ui_footer'][] = Array(99, '', 'modules/let_Chat/show_chat.php','simple_chat', 'show'); 
 $hook_array['after_ui_frame'] = Array(); 
 $hook_array['after_ui_frame'][] = Array(11, 'Adds asterisk related javascript to page to enable Click To Dial/Logging', 'custom/modules/Asterisk/include/AsteriskJS.php','AsteriskJS', 'echoJavaScript'); 
 

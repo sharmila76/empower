@@ -36,8 +36,9 @@ $this->ss->assign('questions_list', $question_list);
 //print_r($question_list);
 //Test section.
 if (isset($_REQUEST['submit_test'])) {
-  $count = count($_REQUEST['question']);
-  $candidate_name = $_REQUEST['candidate_name'];
+  $_SESSION['question_count'] = count($_REQUEST['question']);
+  $_SESSION['candidate_name'] = $_REQUEST['candidate_name'];
+  $candidate_name = $_SESSION['candidate_name'];
   $subject_code = $_REQUEST['subject_code'];
   foreach ($_REQUEST['question'] as $question_code) {
     if ($_REQUEST[$question_code]) {
@@ -48,8 +49,8 @@ if (isset($_REQUEST['submit_test'])) {
     $insert = "INSERT test_result SET subject_code='$subject_code', question_code='$question_code', answered_choices='$answered_choices', student_name='$candidate_name'";
     $insert_result = $GLOBALS['db']->query($insert);
   }
-
-  //calculating time. If it exceeds the time limit automatically submit the form.
+  $url = "index.php?module=Eval_Evaluations&action=Result";
+  SugarApplication::redirect($url);
 }
 
 $this->ss->display($this->getCustomFilePathIfExists('modules/Eval_Evaluations/Questions.html'));

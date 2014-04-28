@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-03-25 06:21:35
+<?php /* Smarty version 2.6.11, created on 2014-04-25 11:36:09
          compiled from modules/Emails/templates/emailSettings.tpl */ ?>
 	<div class="ydlg-bd">
 		<div id="tab_general" class="tab-content">

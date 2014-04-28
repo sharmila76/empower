@@ -9643,6 +9643,39 @@
     'join_key_lhs' => 'inventory_item_id',
     'join_key_rhs' => 'inventory_change_id',
   ),
+  'let_chat_modified_user' => 
+  array (
+    'name' => 'let_chat_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'let_Chat',
+    'rhs_table' => 'let_chat',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'let_chat_created_by' => 
+  array (
+    'name' => 'let_chat_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'let_Chat',
+    'rhs_table' => 'let_chat',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'let_chat_assigned_user' => 
+  array (
+    'name' => 'let_chat_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'let_Chat',
+    'rhs_table' => 'let_chat',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
   'lg_portaluser_modified_user' => 
   array (
     'name' => 'lg_portaluser_modified_user',

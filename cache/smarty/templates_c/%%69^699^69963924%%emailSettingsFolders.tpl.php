@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-03-25 06:21:35
+<?php /* Smarty version 2.6.11, created on 2014-04-25 11:36:09
          compiled from modules/Emails/templates/emailSettingsFolders.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimage', 'modules/Emails/templates/emailSettingsFolders.tpl', 49, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2014-04-21 12:17:34
+<?php /* Smarty version 2.6.11, created on 2014-04-25 04:41:24
          compiled from modules/Eval_Evaluations/Addqa.html */ ?>
 <form name="EditView" method="GET" action="index.php">
     <input type="hidden" name="module" value="Eval_Evaluations">
@@ -27,7 +27,7 @@
                 <label>Question code</label>
             </td>
             <td>
-                <input type="text" name="question_code">
+                <input type="text" name="question_code" value="Auto" disabled>
             </td>
         </tr>
         <tr>

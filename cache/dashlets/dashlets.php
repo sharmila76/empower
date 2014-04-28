@@ -1,5 +1,5 @@
 <?php
-// created: 2014-04-22 12:39:09
+// created: 2014-04-25 10:48:58
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -241,6 +241,13 @@ $dashletsFiles = array (
     'file' => 'modules/Inventory_items/Dashlets/BarcodeDashlet/BarcodeDashlet.php',
     'class' => 'BarcodeDashlet',
     'meta' => 'modules/Inventory_items/Dashlets/BarcodeDashlet/BarcodeDashlet.meta.php',
+  ),
+  'LCHAT_ChatTranscriptDashlet' => 
+  array (
+    'file' => 'modules/LCHAT_ChatTranscript/Dashlets/LCHAT_ChatTranscriptDashlet/LCHAT_ChatTranscriptDashlet.php',
+    'class' => 'LCHAT_ChatTranscriptDashlet',
+    'meta' => 'modules/LCHAT_ChatTranscript/Dashlets/LCHAT_ChatTranscriptDashlet/LCHAT_ChatTranscriptDashlet.meta.php',
+    'module' => 'LCHAT_ChatTranscript',
   ),
   'MyLeadsDashlet' => 
   array (

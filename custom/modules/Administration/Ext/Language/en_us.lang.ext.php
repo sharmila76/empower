@@ -50,4 +50,22 @@ $mod_strings['LBL_ASTERISK_MAILINGLIST_DESC'] = 'Sign up and be informed of upda
 $mod_strings['LBL_ASTERISK_FAKECALL'] = 'Fake Call';
 $mod_strings['LBL_ASTERISK_FAKECALL_DESC'] = 'Test utility to create calls for testing call popups without needing to make a real call.';
 
+
+//Admin Menu
+$mod_strings['LBL_SIMPLECHAT_ACTIONS_TITLE'] = "Simple Chat Settings";
+$mod_strings['LBL_SIMPLECHAT_ACTIONS_DESC'] = "Configure the Simple Chat settings and send feedback.";
+
+$mod_strings['LBL_SIMPLECHAT_TITLE'] = "Chat Settings";
+$mod_strings['LBL_SIMPLECHAT_DESCRIPTION'] = "Disable or enable Simple Chat";
+
+$mod_strings['LBL_SIMPLECHAT_FEEDBACK_TITLE'] = "Submit bugs or suggestions";
+$mod_strings['LBL_SIMPLECHAT_FEEDBACK_DESCRIPTION'] = "Submit bugs or suggestions";
+
+$mod_strings['LBL_SIMPLECHAT_CHECK_TITLE'] = "Check for new version";
+$mod_strings['LBL_SIMPLECHAT_CHECK_DESCRIPTION'] = "Check for new version of Simple Chat";
+
+$mod_strings['LBL_SIMPLECHAT_ABOUTUS_TITLE'] = "About Us";
+$mod_strings['LBL_SIMPLECHAT_ABOUTUS_DESCRIPTION'] = "About the company";
+
+
 ?>

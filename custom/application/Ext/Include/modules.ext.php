@@ -49,6 +49,13 @@ $modInvisList[] = 'Inventory_change';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['let_Chat'] = 'let_Chat';
+$beanFiles['let_Chat'] = 'modules/let_Chat/let_Chat.php';
+$moduleList[] = 'let_Chat';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['lg_PortalUser'] = 'lg_PortalUser';
 $beanFiles['lg_PortalUser'] = 'modules/lg_PortalUser/lg_PortalUser.php';
 $moduleList[] = 'lg_PortalUser';
